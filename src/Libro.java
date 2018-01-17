@@ -8,6 +8,7 @@ public class Libro extends Articulo{
 	public void getInfo(String codigo, ArrayList<Articulo> arraia) {
 
 		
+		
 	}
 
 	public int getHojas() {
