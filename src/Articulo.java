@@ -9,6 +9,7 @@ public abstract class Articulo {
 	private String genero;
 	
 	public abstract void getInfo(String codigo);
+	public abstract String mostrarInfo();
 
 	public String getNombre() {
 		return nombre;
