@@ -8,8 +8,8 @@ public abstract class Articulo {
 	private Date fechaPublicacion;
 	private String genero;
 	
-	public abstract void getInfo(String codigo);
-	public abstract String mostrarInfo();
+	public abstract void getInfo(int codigo);
+	public abstract void mostrarInfo();
 
 	public String getNombre() {
 		return nombre;
